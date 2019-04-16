@@ -27,3 +27,4 @@
     - "{{ erlang_packages }}"
   tags:
     - erlang
+  ignore_errors: "{{ ansible_check_mode }}"
